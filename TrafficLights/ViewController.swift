@@ -43,6 +43,7 @@ class ViewController: UIViewController {
         
         launchButton.layer.cornerRadius = 11
         launchButton.setTitle("Start", for: .normal)
+        launchButton.backgroundColor = .blue
         
     }
     

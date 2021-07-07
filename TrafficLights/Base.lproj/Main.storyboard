@@ -33,13 +33,10 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZEM-Od-XuB">
                                 <rect key="frame" x="115" y="245" width="90" height="90"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="ZEM-Od-XuB" secondAttribute="height" multiplier="1:1" id="LT6-yh-Vaj"/>
-                                </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q8e-l5-au8">
                                 <rect key="frame" x="81.5" y="476" width="157" height="30"/>
-                                <color key="backgroundColor" red="0.074771929710000004" green="0.11422157920000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
