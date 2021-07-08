@@ -37,14 +37,16 @@ class ViewController: UIViewController {
         yellowLabel.alpha = CGFloat(darkenedLabel)
         greenLabel.alpha = CGFloat(darkenedLabel)
         
-        redLabel.layer.cornerRadius = redLabel.frame.width / 2
-        yellowLabel.layer.cornerRadius = yellowLabel.frame.width / 2
-        greenLabel.layer.cornerRadius = greenLabel.frame.width / 2
-        
         launchButton.layer.cornerRadius = 11
         launchButton.setTitle("Start", for: .normal)
         launchButton.backgroundColor = .blue
         
+    }
+    
+    override func viewWillLayoutSubviews() {
+        redLabel.layer.cornerRadius = redLabel.frame.width / 2
+        yellowLabel.layer.cornerRadius = yellowLabel.frame.width / 2
+        greenLabel.layer.cornerRadius = greenLabel.frame.width / 2
     }
     
     @IBAction func buttonPressed() {
